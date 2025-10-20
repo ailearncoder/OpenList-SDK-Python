@@ -250,4 +250,4 @@ MIT License
 
 ---
 
-**项目基于 [openlist.md](openlist.md) 中的API规范动态生成**
+**项目基于 [OPENLIST_API.md](OPENLIST_API.md) 中的API规范动态生成**

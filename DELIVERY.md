@@ -199,7 +199,7 @@ requests (底层网络库)
 
 ### 阶段一：项目初始化 ✅
 
-- 分析openlist.md，识别62个API
+- 分析OPENLIST_API.md，识别62个API
 - 设计模块化目录结构
 - 创建所有文件框架
 
@@ -208,7 +208,7 @@ requests (底层网络库)
 采用严格的迭代模式：
 
 ```
-For each API in openlist.md:
+For each API in OPENLIST_API.md:
     1. fetch_content(API_URL)           # 获取OpenAPI规范
     2. 分析规范 → 定义Pydantic模型       # models.py
     3. 实现API函数 → 添加文档字符串      # auth.py / fs.py
